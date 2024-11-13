@@ -1,12 +1,13 @@
-/* Defina uma cor padrão */
+
 :root {
     --primary-color: #3a86ff;
     --secondary-color: #8338ec;
+    --tertiary-color: #37AFE1
     --background-color: #f6f6f6;
     --text-color: #333;
 }
 
-/* Estilos Globais */
+
 body {
     font-family: Arial, sans-serif;
     background-color: var(--background-color);
@@ -28,7 +29,7 @@ header {
 }
 
 .logo {
-    width: 170px;
+    width: 200px;
     height: auto;
     margin-left: 80px; 
     margin-top: 20px; 
@@ -38,8 +39,9 @@ header {
 /* Banner */
 .banner {
     text-align: center;
-    background-color: #999999;
+    background-color: #F5F4B3;
     padding: 20px;
+    margin-top: 20px;
     color: white;
 }
 
@@ -48,7 +50,7 @@ header {
     height: auto;
 }
 
-/* Conteúdo Centralizado */
+
 main {
     padding: 40px;
     width: 80%;
@@ -81,12 +83,17 @@ main {
 
 /* Rodapé */
 footer {
-    background-color: var(--primary-color);
+    background-color: var(--tertiary-color);
     color: white;
     text-align: center;
     padding: 15px;
     width: 100%;
     margin-top: 40px;
+}
+
+footer .logo {
+    width: 250px;
+    margin-left: 30px;
 }
 
 footer a {
