@@ -28,6 +28,14 @@ header {
     width: 100%;
 }
 
+h1 {
+    font-family: 'Arial', sans-serif; 
+    font-size: 70px;
+    color: #F3F3E0; 
+    text-align: center; 
+    margin-top: 20px;
+}
+
 .logo {
     width: 200px;
     height: auto;
@@ -40,7 +48,7 @@ header {
 .banner {
     text-align: center;
     background-color: #E4E0E1;
-    padding: 150px;
+    padding: 20px;
     margin-top: 20px;
     color: white;
 }
@@ -99,7 +107,7 @@ footer {
 }
 
 .footer-logo {
-    width: 200px; /* Aumente o tamanho da logo aqui conforme necessário */
+    width: 200px; 
     height: auto;
     margin-right: 20px;
 }
