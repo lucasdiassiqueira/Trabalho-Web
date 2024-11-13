@@ -40,7 +40,7 @@ header {
 .banner {
     text-align: center;
     background-color: #E4E0E1;
-    padding: 200px;
+    padding: 150px;
     margin-top: 20px;
     color: white;
 }
@@ -85,13 +85,13 @@ main {
 footer {
     background-color: var(--primary-color);
     color: white;
-    padding: 15px;
+    padding: 20px 0;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.footer-esquerdo {
+.footer-esquerda {
     display: flex;
     align-items: center;
     width: 80%;
@@ -99,17 +99,17 @@ footer {
 }
 
 .footer-logo {
-    width: 50px;
+    width: 200px; /* Aumente o tamanho da logo aqui conforme necessário */
     height: auto;
     margin-right: 20px;
 }
 
-.footer-centro {
+.footer-info {
     text-align: center;
     flex-grow: 1;
 }
 
-.footer-centro p {
+.footer-info p {
     margin: 5px 0;
 }
 
