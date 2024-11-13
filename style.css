@@ -1,7 +1,7 @@
 
 :root {
     --primary-color: #9A7E6F;
-    --secondary-color: #D6C0B3;
+    --secondary-color: #3D3B40;
     --tertiary-color: #54473F;
     --background-color: #E0CCBE;
     --text-color: #333;
@@ -97,7 +97,7 @@ footer {
 }
 
 .footer-esquerda img,
-.footer-direita p {
+.footer-direito p {
     margin-left: 40px 0;
 }
 
