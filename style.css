@@ -21,7 +21,7 @@ body {
 /* Cabeçalho */
 header {
     background-color: var(--primary-color);
-    color: rgb(248, 137, 137);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 20px;
     width: 100%;
@@ -36,11 +36,16 @@ header {
 }
 
 /* Banner */
+.banner {
+    text-align: center;
+    background-color: #999999;
+    padding: 20px;
+    color: white;
+}
+
 .banner img {
-    width: 100%;
-    max-width: 1000px;
+    max-width: 100%;
     height: auto;
-    margin-top: 20px;
 }
 
 /* Conteúdo Centralizado */
