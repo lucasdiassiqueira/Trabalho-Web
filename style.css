@@ -40,7 +40,7 @@ header {
 .banner {
     text-align: center;
     background-color: #E4E0E1;
-    padding: 250px;
+    padding: 200px;
     margin-top: 20px;
     color: white;
 }
@@ -91,7 +91,7 @@ footer {
     justify-content: center;
 }
 
-.footer-direito {
+.footer-esquerdo {
     display: flex;
     align-items: center;
     width: 80%;
