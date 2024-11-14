@@ -30,7 +30,7 @@ header {
 
 h1 {
     font-family: 'Arial', sans-serif; 
-    font-size: 70px;
+    font-size: 60px;
     color: #F3F3E0; 
     text-align: center; 
     margin-top: 20px;
@@ -48,14 +48,14 @@ h1 {
 .banner {
     text-align: center;
     background-color: #E4E0E1;
+    width: 80%;
     padding: 20px;
     margin-top: 20px;
     color: white;
 }
 
 .banner img {
-    width: 100%;
-    overflow: hidden;
+    min-width: 100%;
     height: auto;
 }
 
