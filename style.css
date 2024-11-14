@@ -46,14 +46,15 @@ h1 {
 
 /* Banner */
 .banner {
-    width: 100%;
-    height: 300px; /* Ajuste a altura do banner conforme necessário */
+    width: 90%;
+    height: 400px; /* Ajuste a altura do banner conforme necessário */
     display: flex;
     justify-content: center; /* Centraliza a imagem horizontalmente */
     align-items: center; /* Centraliza a imagem verticalmente */
     background-color: #E4E0E1; /* Cor de fundo do banner */
-    padding: 20px; /* Espaço interno do banner */
-    box-sizing: border-box; /* Inclui padding no tamanho total do banner */
+    padding: 20px; /* Espaço interno para afastar a imagem das bordas do banner */
+    box-sizing: border-box;
+    border-radius: 8px;
 }
 
 .banner img {
