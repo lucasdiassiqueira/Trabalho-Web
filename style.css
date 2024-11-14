@@ -46,7 +46,7 @@ h1 {
 
 /* Banner */
 .banner {
-    width: 80%;
+    width: 100px;
     height: 450px; 
     display: flex;
     justify-content: center; 
