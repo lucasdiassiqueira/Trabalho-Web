@@ -47,16 +47,17 @@ h1 {
 /* Banner */
 .banner {
     width: 80%;
-    height: 300px; /* Ajuste a altura do banner conforme necessário */
+    height: 350px; 
     display: flex;
-    justify-content: center; /* Centraliza a imagem horizontalmente */
-    align-items: center; /* Centraliza a imagem verticalmente */
-    background-color: #E4E0E1; /* Cor de fundo opcional, caso a imagem não preencha o banner */
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px;
+    background-color: #E4E0E1; 
 }
 
 .banner img {
-    width: auto; /* Ajuste a largura da imagem conforme necessário */
-    height: 100%; /* Ajuste a altura da imagem conforme necessário */
+    width: auto; 
+    height: 100%; 
 }
 
 
