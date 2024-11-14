@@ -46,7 +46,7 @@ h1 {
 
 /* Banner */
 .banner {
-    text-align: center;
+    align-items: center;
     background-color: #E4E0E1;
     width: 60%;
     height: 200px;
