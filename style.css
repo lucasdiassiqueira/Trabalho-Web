@@ -53,6 +53,7 @@ h1 {
     padding: 10%;
     margin-top: 20px;
     color: white;
+    justify-content: center;
 }
 
 .banner img {
